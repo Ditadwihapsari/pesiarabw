@@ -1,0 +1,142 @@
+$orange: #F15A23;
+$green: #166B77;
+
+
+.banner{
+  background: #fff;
+  min-height: 450px;
+  margin-bottom: 0;
+}
+
+.navbar-default{
+  .navbar-brand{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: $orange;
+    text-shadow: 0px 0px 0px;
+  }
+  li{
+    a{
+      color: $orange !important;
+    }
+  }
+}
+
+.book-form{
+  width: 60%;
+  padding: 10px;
+  position: absolute;
+  top: 22.5%;
+  left: 20%;
+  background: none;
+  h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+    line-height: 50px;
+    margin-bottom: 30px;
+  }
+}
+.top-guide{
+  h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+    line-height: 50px;
+    margin-bottom: 30px;
+  }
+}
+input{
+  &[type="submit"] {
+      position: absolute;
+      top: 30px;
+      left: 190px;
+      width: auto !important;
+      background: $orange !important;
+      border-radius: 5px;
+  }
+}
+
+select{
+  &#sel1 {
+      width: 50%;
+  }
+}
+
+.col-md-4{
+  &.col-sm-4{
+    &.col-xs-4 {
+        border: 1px solid $orange;
+        .opt {
+            height: 90px;
+            padding: 15px;
+        }
+    }
+  }
+}
+
+.profil-guide{
+  width: 70%;
+}
+.btn-green{
+  background: $green;
+  width: 150px;
+  font-size: 22px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.detail {
+  margin-bottom: 40px;
+    img{
+      max-width: 200px;
+      max-height: 200px;
+    }
+    .text-bold{
+      color: #000;
+    }
+    .detail{
+      color: #6b6c7d;
+      width: 30%;
+      margin-left: 30px;
+      font-size: 22px;
+      p{
+        font-family: 'Roboto Condensed', sans-serif;
+      }
+    }
+    img, .detail{
+      display: inline-block;
+    }
+}
+
+.detail, .rating{
+  color: #000;
+}
+
+.calendar-free{
+  padding: 50px 110px !important;
+}
+
+.payment {
+    width: 30%;
+    margin: 150px auto;
+    h3{
+      text-align: center;
+      color: $orange;
+      font-family: 'Roboto Condensed', sans-serif;
+      margin-bottom: 30px;
+    }
+    h5{
+      color: $orange;
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+    .row{
+      .wrap-a{
+        min-height: 50px;
+      }
+    }
+    .confim-invoice{
+      width: 100%;
+      padding: 0 20%;
+    }
+}
