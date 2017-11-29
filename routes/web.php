@@ -17,6 +17,11 @@ Route::get('/home', function () {
     return view('home');
 });
 
+
+Route::get('/guide', function () {
+    return view('guide');
+});
+
 Route::get('/search', 'BNIController@show');
 
 Route::get('/profil/{id}', 'BNIController@showprofil');
