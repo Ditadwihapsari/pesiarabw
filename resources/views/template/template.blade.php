@@ -60,7 +60,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="header-right-agileits">
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="guide">Become a Guide</a></li>
+							<li><a href="/pesiar/public/guide">Become a Guide</a></li>
 							<li><a href="#about">Sign in</a></li>
 							<li><a href="#team">Help</a></li>
 						</ul>
