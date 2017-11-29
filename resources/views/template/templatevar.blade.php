@@ -54,7 +54,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<div class="header-right-agileits">
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav navbar-right">
-								<li><a href="/pesiar/public/guide">Become a Guide</a></li>
+								<li><a href="public/guide">Become a Guide</a></li> <!-- kalo pake XAMPP, jadi gini, kalo pake php artisan serve, jadi /guide doang -->
 								<li><a href="#about">Sign in</a></li>
 								<li><a href="#team">Help</a></li>
 							</ul>

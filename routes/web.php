@@ -30,3 +30,5 @@ Route::get('/payment', function () {
 Route::get('/guide', function () {
     return view('guide');
 });
+
+ ?>
