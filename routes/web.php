@@ -31,4 +31,7 @@ Route::get('/guide', function () {
     return view('guide');
 });
 
+Route::get('/login', function () {
+    return view('login');
+});
  ?>
